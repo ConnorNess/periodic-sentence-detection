@@ -1,6 +1,9 @@
 import tkinter as tk 
 from tkinter import *
 from tkinter import messagebox
+import nltk
+from nltk.tokenize import sent_tokenize, word_tokenize, PunktSentenceTokenizer #Punkt is trained but can be retrained on data, going to use for ML later on
+#nltk.download()
 
 root = tk.Tk() #root==mainwindow
 root.title("GUI Base")
@@ -16,6 +19,8 @@ def checkSentence():
     input = sentenceInput.get("1.0", END) #1.0==input read from line1-char0 || END==reads until end of textbox
 
     chkLength = len(input.split())
+    print(sent_tokenize(input))
+    print(word_tokenize(input))
     
     basicCheck = 18
     sentencePosition = 1
@@ -30,8 +35,6 @@ def checkSentence():
             messagebox.showinfo("Check 1", "Likely periodic")
         else:
             messagebox.showinfo("Check 1", "Unlikely periodic")
-
-
 
 btnChkSntnc = tk.Button(frameTextInput, text="Process", command=checkSentence)
 
