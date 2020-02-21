@@ -21,6 +21,15 @@ def checkSentence():
     chkLength = len(input.split())
     print(sent_tokenize(input))
     print(word_tokenize(input))
+
+    words = nltk.word_tokenize(input)
+    tagged = nltk.pos_tag(words)
+    print(tagged)
+
+    #for i in input:
+        #words = nltk.word_tokenize(i)
+        #tagged = nltk.pos_tag(words)
+        #print(tagged)
     
     basicCheck = 18
     sentencePosition = 1
