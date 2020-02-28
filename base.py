@@ -15,8 +15,11 @@ ps = PorterStemmer()
 ###---------------------------------------------------TRAINING---------------------------------------------------###
 training_file = open(os.path.join(sys.path[0],'TrainingBase.txt'))
 train_file = training_file.read()
-open(os.path.join(sys.path[0],'TrainingCleaned.txt', 'w"').close())
-cleantrain_file = open(os.path.join(sys.path[0],'TrainingCleaned.txt'))
+
+if os.path.exists(os.path.join('TrainingCleaned.txt')): #Deleting and remaking cleaned training data
+    os.remove(os.path.join(sys.path[0],'TrainingCleaned.txt'))
+cleantrain_file = open(os.path.join(sys.path[0],'TrainingCleaned.txt'), 'w') 
+
 sentenceTraining = nltk.sent_tokenize(train_file)
 train_pos = [] #Part-of-Speech base check build from training
 stemmed_train = []
@@ -25,20 +28,29 @@ for sentence in sentenceTraining:
     words = nltk.word_tokenize(sentence)
     filtered_train = [w for w in words if not w in stop_words] #Adds token words provided they are not stop words
     
-    for word in filtered_train:
-        stemmed_train.append(ps.stem(word))
+    for word in filtered_train: #stems each word in sentence and writes each sentence to a new line
+        cleantrain_file.write(ps.stem(word))
+        cleantrain_file.write(" ")
+    cleantrain_file.write("\n")
+cleantrain_file.close()
 
+training_PoS_Tags = open(os.path.join(sys.path[0],'TrainingCleaned.txt'), 'r')
+train_PoS_frequency = []
 
-
-    # for w in stemmed_train:
-    #     if (i > (round(((len(stemmed_train)/100)*31.4)))):
-    #         train_pos.append(nltk.pos_tag(w))
-
-
+for line in training_PoS_Tags:
+    word_count = len(line.split())
+    print(word_count)
+    current_word = 1
+    main_clause_position = round(((len(line.split())/100)*31.4))
+    
+    for word in line.split():
+        if current_word >  main_clause_position:
+            train_PoS_frequency = [nltk.pos_tag(word)]
+    print(train_PoS_frequency)
 
 ###---------------------------------------------------INPUT---------------------------------------------------###
 def input_file(): #Takes in input file and tokenizes sentences
-    text = open("C:\\Users\\Connorrness\\Documents\\Hons\\periodic-sentence-detection\\input.txt", "r")
+    text = open(os.path.join(sys.path[0], 'input.txt', 'r'))
     user_file = text.read()
     sentenceTokens = nltk.sent_tokenize(user_file)
     
@@ -52,16 +64,16 @@ def input_file(): #Takes in input file and tokenizes sentences
 
 
 ###---------------------------------------------------WINDOW---------------------------------------------------###
-root = tk.Tk() #root==mainwindow
-root.title("GUI Base")
-root.geometry('500x300')
+# root = tk.Tk() #root==mainwindow
+# root.title("GUI Base")
+# root.geometry('500x300')
 
-frameFileUpload = Frame(root)
+# frameFileUpload = Frame(root)
 
-fileInput = tk.Text(frameFileUpload, height=5, width=70)
-fileInput.pack()
-btnTrainingFile = tk.Button(frameFileUpload, text="Test With File", command=input_file)
-btnTrainingFile.pack()
-frameFileUpload.pack()
+# fileInput = tk.Text(frameFileUpload, height=5, width=70)
+# fileInput.pack()
+# btnTrainingFile = tk.Button(frameFileUpload, text="Test With File", command=input_file)
+# btnTrainingFile.pack()
+# frameFileUpload.pack()
 
-root.mainloop()
+# root.mainloop()
