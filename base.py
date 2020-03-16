@@ -34,19 +34,23 @@ for sentence in sentenceTraining:
     cleantrain_file.write("\n")
 cleantrain_file.close()
 
-training_PoS_Tags = open(os.path.join(sys.path[0],'TrainingCleaned.txt'), 'r')
-train_PoS_frequency = []
+# training_PoS_Tags = open(os.path.join(sys.path[0],'TrainingCleaned.txt'), 'r')
+# train_PoS_frequency = []
 
-for line in training_PoS_Tags:
-    word_count = len(line.split())
-    print(word_count)
-    current_word = 1
-    main_clause_position = round(((len(line.split())/100)*31.4))
+
+
+# for line in training_PoS_Tags:
+#     word_count = len(line.split())
+#     print(word_count)
+#     current_word = 1
+#     main_clause_position = round(((len(line.split())/100)*31.4))
     
-    for word in line.split():
-        if current_word >  main_clause_position:
-            train_PoS_frequency = [nltk.pos_tag(word)]
-    print(train_PoS_frequency)
+#     for word in line.split():
+#         if current_word >  main_clause_position:
+#             train_PoS_frequency = [nltk.pos_tag(word)]
+#     print(train_PoS_frequency)
+
+training_tag_rate = nltk.FreqDist(tag for (word, tag) in )
 
 ###---------------------------------------------------INPUT---------------------------------------------------###
 def input_file(): #Takes in input file and tokenizes sentences
@@ -63,7 +67,7 @@ def input_file(): #Takes in input file and tokenizes sentences
         print(stemmed_sentence)
 
 
-###---------------------------------------------------WINDOW---------------------------------------------------###
+###---------------------------------------------------GUI---------------------------------------------------###
 # root = tk.Tk() #root==mainwindow
 # root.title("GUI Base")
 # root.geometry('500x300')
