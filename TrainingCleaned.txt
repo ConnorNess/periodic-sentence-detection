@@ -1,69 +1,138 @@
-despit blind snow , freez temperatur , heighten threat attack polar bear , team continu . 
-the winner best citi , mile-long modern shop mall , cycl path hug everi road , network canal , milton keyn . 
-with two raw blister unabl carri pack due two broken rib broken collar bone , I stare dead phone pleadingli . 
-when I shop town yesterday , I saw mike . 
-becaus know file system , experi rest team , get work moment 's notic , sarah charg next week . 
-with bu ride home loaf bread still buy , I fed machin last coin . 
-despit gust side wind fog like soup , lower land gear . 
-simpl mainten , like top water , chang oil , regular tune , doubl life car . 
-autumn , spray gold , red , yellow , cool temperatur crisp air , season . 
-Of boy could , peopl could , one person want see , georg . 
-with two deep wound arm coupl sprain strain , I still determin continu move trek crawl . 
-when set heart fall love year , alreadi found new boyfriend first day new year . 
-encourag sole person spoke issu , rest peopl affect also began speak one one . 
-drown thought , think memori spent whole night , still long come back even though longer possibl . 
-If look medusa , turn stone forev . 
-To believ thought , believ true privat heart true men , geniu . 
-In week departur arraki , final scurri reach nearli unbear frenzi , old crone came visit mother boy , paul . 
-In almost incred brief time took small sturdi porter roll milk-can across platform bump , clang , milk-can similarli treat moment , ash fell love . 
-like water river , like motorist highway , like yellow train streak santa Fe track , drama , shape except happen , never stop . 
-and though I gift propheci , understand mysteri , knowledg ; though I faith I could remov mountain , chariti , I noth . 
-halfway west egg new york citi sprawl desol plain , gray valley new york 's ash dump . 
-unprovid origin learn , uninform habit think , unskil art composit , I resolv write book . 
-and though I gift propheci , understand mysteri , knowledg ; though I faith , I could remov mountain , chariti , I noth . 
-suddenli , appar reason , start argu . 
-unabl read due myopia , child ask wear glass . 
-spend time pristin beach , listen wave , gaze clear sky , sure enjoy vacat . 
-encourag success femal candid , sever women decid run offic . 
-rapt thought , think moment spent togeth , wait come back . 
-If look , never abl forget . 
-As long come work time , finish task assign , treat everyon respect , I n't problem . 
-with one look , one listen felt , die lone man . 
-If kind person care other , put interest other , never refus propos . 
-although lost money gambl , still ask friend loan money . 
-In spite ici wind heavi rain , player continu play . 
-after come back work , cook dinner , clean dish , still manag find time read . 
-when I look face , I complet forgot I need tell . 
-whatev reason , whether 's pride shyness , like come parti . 
-never leav hous , come may , 's like prison hous . 
-though practic sing lesson daili basi , religi follow instruct given teacher , like success singer . 
-consid low crime rate , scenic beauti , simplic peopl , good weather , I will live rest life . 
-If affront begin , would n't face problem . 
-In spite heavi snow cold temperatur , game continu . 
-with low tax , beauti view mild climat , citi great place live . 
-posit think , help us stay focus maintain good attitud , import happi life . 
-becaus ad pool , spa restaur , hotel experienc increas guest . 
-present , winner seven academi award two toni award , I present star tonight 's play , herbert smith . 
-after shop mall , walk dog wash car , I final got stay relax . 
-If price good qualiti excel , I might consid buy design dress . 
-renew energi resourc , like wind , solar , geotherm , answer earth 's energi problem . 
-with blood-curdl scream claw outstretch , eagl went rabbit . 
-the beach , white sand , crystal clear water , palm tree , favorit hangout local . 
-now , year research mani modif , latest model hybrid . 
-the gazel , peac drink unawar danger , soon target lioness . 
-with beauti set pyrotechn display , act sure pleas . 
-proper mainten , like check tire pressur , chang oil get tune-up , ensur best ga mileag car . 
-consid attent , friendli speed servic , waiter definit get good tip . 
-spring , new bud pop , flower bloom , mild temperatur , favorit season . 
-whether peer pressur idea , mari tri glee club made . 
-In spite lose one ship weather storm , columbu made back spain . 
-By smell barbequ firework sky , I knew independ day . 
-after comb ad job send hundr resum , steve final got dream job . 
-sever weather system melt polar ice cap sign climat chang . 
-becaus independ , take care , purr , I prefer cat dog . 
-To believ thought , believ true privat heart true men , geniu . 
-In week departur arraki , final scurri reach nearli unbear frenzi , old crone came visit mother boy , paul . 
-unprovid origin learn , uninform habit think , unskil art composit , I resolv -- write book . 
-becaus rain , I went hous . 
-unabl join other danc sprain ankl , I went movi . 
-the proper place sentenc word group word writer desir make promin usual end . 
+despit blind snow freez temperatur heighten threat attack polar bear team continu 
+IN VBG JJ VBG NNS VBN NN NN JJ NNS VBP VBD 
+the winner best citi mile long modern shop mall cycl path hug everi road network canal milton keyn 
+DT NN JJS NN NN JJ JJ NN NN NN NNS VBG DT NN NN NNS NNP NNP 
+with two raw blister unabl carri pack due two broken rib broken collar bone I stare dead phone pleadingli 
+IN CD JJ NNS JJ VBP VB JJ CD JJ NNS VBN JJ NN PRP VBD JJ NN RB 
+when I shop town yesterday I saw mike 
+WRB PRP VBG NN NN PRP VBD NNP 
+becaus know file system experi rest team get work moment notic sarah charg next week 
+IN VBZ VBG NN NN NN NN VB NN NN NN NNP NN JJ NN 
+with bu ride home loaf bread still buy I fed machin last coin 
+IN JJ NN NN NN NN RB VB PRP VBP NN JJ NN 
+despit gust side wind fog like soup lower land gear 
+IN VBG JJ NNS VBP IN NN VBD JJ NN 
+simpl mainten like top water chang oil regular tune doubl life car 
+JJ NN IN VBG NN VBG NN JJ NN JJ NN NN 
+autumn spray gold red yellow cool temperatur crisp air season 
+NNP NN NN VBD JJ NN NNS VBP NN NN 
+Of boy could peopl could one person want see georg 
+IN NNS MD NNS MD CD NN VBD NN NNP 
+with two deep wound arm coupl sprain strain I still determin continu move trek crawl 
+IN CD JJ NNS NNS NN VBZ NNS PRP RB VBD JJ VBG NN VBG 
+when set heart fall love year alreadi found new boyfriend first day new year 
+WRB VBN NN NN VBP NN RB VBD JJ NN RB NN JJ NN 
+encourag sole person spoke issu rest peopl affect also began speak one one 
+VBN JJ NN VBD NN NN NNS VBD RB VBD JJ CD NN 
+drown thought think memori spent whole night still long come back even though longer possibl 
+VBN NNS VBG NNS VBD JJ NN RB VBD VBN RB RB IN RBR JJ 
+If look medusa turn stone forev 
+IN VBN NNP VBD CD NN 
+To believ thought believ true privat heart true men geniu 
+TO VB JJ VBP JJ JJ NN JJ NNS NN 
+In week departur arraki final scurri reach nearli unbear frenzi old crone came visit mother boy paul 
+IN NN NN NNP JJ NN VBD RB JJ JJ JJ NN VBD RB JJ NN NNP 
+In almost incred brief time took small sturdi porter roll milk across platform bump clang milk can similarli treat moment ash fell love 
+IN RB RB JJ NN VBD JJ JJ NN NN NN IN NN NN NN NN NNS RB VBD NN NNP VBD VB 
+like water river like motorist highway like yellow train streak santa Fe track drama shape except happen never stop 
+IN NNS VBP IN NNS VBP IN JJ NNS VBG NNP NNP VBZ NN NN JJ NNS RB VBD 
+and though I gift propheci understand mysteri knowledg though I faith I could remov mountain chariti I noth 
+CC IN PRP VBP JJ JJ NNS VBP IN PRP VBP PRP MD VB NNS NN PRP NN 
+halfway west egg new york citi sprawl desol plain gray valley new york ash dump 
+NNP NNP NNP NNP NNP NNP VBP NN NN JJ JJ NNP NNP NNS VBD 
+unprovid origin learn uninform habit think unskil art composit I resolv write book 
+VBN JJ NN JJ NNS VBG JJ NNS NN PRP VBD JJ NN 
+and though I gift propheci understand mysteri knowledg though I faith I could remov mountain chariti I noth 
+CC IN PRP VBP JJ JJ NNS VBP IN PRP VBP PRP MD VB NNS NN PRP NN 
+suddenli appar reason start argu 
+RB JJ NN VBD VBG 
+unabl read due myopia child ask wear glass 
+JJ NN JJ CD NN VBD JJ NNS 
+spend time pristin beach listen wave gaze clear sky sure enjoy vacat 
+NN NN JJ NN VBG NNS VBG JJ NN RB VBG NN 
+encourag success femal candid sever women decid run offic 
+NNP NN NN NNS JJ NNS VBD NN NN 
+rapt thought think moment spent togeth wait come back 
+NNP NNS VBG NNS VBN RB VBD VB RB 
+If look never abl forget 
+IN VBN RB JJ NN 
+As long come work time finish task assign treat everyon respect I problem 
+IN RB VBZ NN NN NNS NNS VBD NNS NN NN PRP NN 
+with one look one listen felt die lone man 
+IN CD NN CD NN VBD VBD RB NN 
+If kind person care other put interest other never refus propos 
+IN NN NN VBZ NNS VBZ NNS NNS RB VBP NN 
+although lost money gambl still ask friend loan money 
+IN VBN NN VBG RB VBG NNS NN NN 
+In spite ici wind heavi rain player continu play 
+IN JJ NN NNS JJ NN NNS VBD NN 
+after come back work cook dinner clean dish still manag find time read 
+IN VBG RB NN NN NN NN NNS RB VBN JJ NN VB 
+when I look face I complet forgot I need tell 
+WRB PRP VBD NN PRP RB VBD PRP VBD NN 
+whatev reason whether pride shyness like come parti 
+WDT NN IN NN NN JJ VBP NN 
+never leav hous come may like prison hous 
+RB VBG NN NN MD VB NN NN 
+though practic sing lesson daili basi religi follow instruct given teacher like success singer 
+IN NNS VBG NNS JJ NN RB VBZ NNS VBN RB JJ JJ NN 
+consid low crime rate scenic beauti simplic peopl good weather I will live rest life 
+VBG JJ NN NN JJ NN NN NNS JJ NN PRP JJ JJ NN NN 
+If affront begin face problem 
+IN JJ VBG NN NN 
+In spite heavi snow cold temperatur game continu 
+IN JJ JJ NNS JJ NNS NN VBD 
+with low tax beauti view mild climat citi great place live 
+IN JJ NNS JJ NNS JJ JJ NN JJ NN VBP 
+posit think help us stay focus maintain good attitud import happi life 
+JJ NN VBG PRP VB JJ VBG JJ NN JJ JJ NN 
+becaus ad pool spa restaur hotel experienc increas guest 
+IN VBG NN NN JJ NN VBG NN NNS 
+present winner seven academi award two toni award I present star tonight play herbert smith 
+VBG NN CD NNP NNP CD NNP NNPS PRP VBP NN NN NN NNP NNP 
+after shop mall walk dog wash car I final got stay relax 
+IN VBG NN VBG NNS VBG NN PRP RB VBD JJ NN 
+If price good qualiti excel I might consid buy design dress 
+IN NN JJ NN NN PRP MD VB VBG NN NN 
+renew energi resourc like wind solar geotherm answer earth energi problem 
+JJ NN NNS IN NN JJ JJ NNS NNP NN NNS 
+with blood curdl scream claw outstretch eagl went rabbit 
+IN NN VBG NN NN VBD JJ VBD NN 
+the beach white sand crystal clear water palm tree favorit hangout local 
+DT NN JJ NN NN JJ NN NN NNS VBP NN NNS 
+now year research mani modif latest model hybrid 
+RB NNS NN JJ NNS JJS NN NN 
+the gazel peac drink unawar danger soon target lioness 
+DT NN RB VBG JJ NN RB NN NN 
+with beauti set pyrotechn display act sure pleas 
+IN JJ NN JJ NN NN JJ NN 
+proper mainten like check tire pressur chang oil get tune up ensur best ga mileag car 
+JJ NN IN VBG NN NN VBG NN VBG NN JJ VB JJS NN NN NN 
+consid attent friendli speed servic waiter definit get good tip 
+VBG JJ NN NN NN RBR RB VBG JJ NN 
+spring new bud pop flower bloom mild temperatur favorit season 
+VBG JJ NNS VBG NNS VBG JJ NNS VBP NN 
+whether peer pressur idea mari tri glee club made 
+NNP NN NN NN NNP VBD NN NN VBD 
+In spite lose one ship weather storm columbu made back spain 
+IN NN VBG CD NN VBG NN NNP VBD RP NNP 
+By smell barbequ firework sky I knew independ day 
+IN NN VBG NNS VBP PRP VBD NNP NNP 
+after comb ad job send hundr resum steve final got dream job 
+IN VBG NN NNS VBG NNS NNS NNP RB VBD JJ NN 
+sever weather system melt polar ice cap sign climat chang 
+NNP NN NNS VBG JJ NN NNS NNS VBP NN 
+becaus independ take care purr I prefer cat dog 
+IN JJ NN NN NN PRP VBP NNS NNS 
+To believ thought believ true privat heart true men geniu 
+TO VB JJ VBP JJ JJ NN JJ NNS NN 
+In week departur arraki final scurri reach nearli unbear frenzi old crone came visit mother boy paul 
+IN NN NN NNP JJ NN VBD RB JJ JJ JJ NN VBD RB JJ NN NNP 
+unprovid origin learn uninform habit think unskil art composit I resolv write book 
+VBN JJ NN JJ NNS VBG JJ NNS NN PRP VBD JJ NN 
+becaus rain I went hous 
+IN VBG PRP VBD NN 
+unabl join other danc sprain ankl I went movi 
+JJ NN NNS NN VBD NN PRP VBD NN 
+the proper place sentenc word group word writer desir make promin usual end 
+DT JJ NN NN NN NN NNS NN NNS VBP JJ RB VBP 
