@@ -1,207 +1,207 @@
-despit blind snow , freez temperatur , heighten threat attack polar bear , team continu . 
-IN VBG NN , VBG NNS , VBD NN NN JJ NNS , NN VBD . 
-IN VBG NN VBG NNS VBD NN NN JJ NNS NN VBD 
-the winner best citi , mile-long modern shop mall , cycl path hug everi road , network canal , milton keyn . 
-DT NN JJS NN , JJ JJ NN NN , NN NNS VBG DT NN , NN NNS , NNP NNP . 
-DT NN JJS NN JJ JJ NN NN NN NNS VBG DT NN NN NNS NNP NNP 
-with two raw blister unabl carri pack due two broken rib broken collar bone , I stare dead phone pleadingli . 
-IN CD JJ NNS JJ VBP VB JJ CD JJ NNS VBN JJ NN , PRP VBD JJ NN RB . 
-IN CD JJ NNS JJ VBP VB JJ CD JJ NNS VBN JJ NN PRP VBD JJ NN RB 
-when I shop town yesterday , I saw mike . 
-WRB PRP VBG NN NN , PRP VBD NNP . 
-WRB PRP VBG NN NN PRP VBD NNP 
-becaus know file system , experi rest team , get work moment 's notic , sarah charg next week . 
-IN VBZ VBG NN , NN NN NN , VB NN NN POS NN , NNP NN JJ NN . 
-IN VBZ VBG NN NN NN NN VB NN NN POS NN NNP NN JJ NN 
-with bu ride home loaf bread still buy , I fed machin last coin . 
-IN JJ NN NN NN NN RB VB , PRP VBP NN JJ NN . 
-IN JJ NN NN NN NN RB VB PRP VBP NN JJ NN 
-despit gust side wind fog like soup , lower land gear . 
-IN VBG JJ NNS VBP IN NN , VBD JJ NN . 
-IN VBG JJ NNS VBP IN NN VBD JJ NN 
-simpl mainten , like top water , chang oil , regular tune , doubl life car . 
-JJ NN , IN VBG NN , VBG NN , JJ NN , JJ NN NN . 
-JJ NN IN VBG NN VBG NN JJ NN JJ NN NN 
-autumn , spray gold , red , yellow , cool temperatur crisp air , season . 
-NNP , NN NN , JJ , JJ , JJ NNS VBP NN , NN . 
-NNP NN NN JJ JJ JJ NNS VBP NN NN 
-Of boy could , peopl could , one person want see , georg . 
-IN NNS MD , NNS MD , CD NN VBD NN , NNP . 
-IN NNS MD NNS MD CD NN VBD NN NNP 
-with two deep wound arm coupl sprain strain , I still determin continu move trek crawl . 
-IN CD JJ NNS NNS NN VBZ NNS , PRP RB VBD JJ VBG NN NN . 
-IN CD JJ NNS NNS NN VBZ NNS PRP RB VBD JJ VBG NN NN 
-when set heart fall love year , alreadi found new boyfriend first day new year . 
-WRB VBN NN NN VBD NN , RB VBD JJ NN RB NN JJ NN . 
-WRB VBN NN NN VBD NN RB VBD JJ NN RB NN JJ NN 
-encourag sole person spoke issu , rest peopl affect also began speak one one . 
-VBN JJ NN VBD NN , VBP NNS VBD RB VBD JJ CD NN . 
-VBN JJ NN VBD NN VBP NNS VBD RB VBD JJ CD NN 
-drown thought , think memori spent whole night , still long come back even though longer possibl . 
-VBN NNS , VBG NNS VBD JJ NN , RB VBD VBN RB RB IN JJR JJ . 
-VBN NNS VBG NNS VBD JJ NN RB VBD VBN RB RB IN JJR JJ 
-If look medusa , turn stone forev . 
-IN VBN NNP , VBD NN NN . 
-IN VBN NNP VBD NN NN 
-To believ thought , believ true privat heart true men , geniu . 
-TO VB NN , VBP JJ JJ NN JJ NNS , NN . 
-TO VB NN VBP JJ JJ NN JJ NNS NN 
-In week departur arraki , final scurri reach nearli unbear frenzi , old crone came visit mother boy , paul . 
-IN NN NN NNP , JJ NN VBD RB JJ NN , JJ NN VBD RB RBR NN , NNP . 
-IN NN NN NNP JJ NN VBD RB JJ NN JJ NN VBD RB RBR NN NNP 
-In almost incred brief time took small sturdi porter roll milk-can across platform bump , clang , milk-can similarli treat moment , ash fell love . 
-IN RB RB JJ NN VBD JJ JJ NN NN JJ IN NN NN , NN , NNS RB VBD NN , NNP VBD RB . 
-IN RB RB JJ NN VBD JJ JJ NN NN JJ IN NN NN NN NNS RB VBD NN NNP VBD RB 
-like water river , like motorist highway , like yellow train streak santa Fe track , drama , shape except happen , never stop . 
-IN NNS RB , IN NNS RB , IN JJ NNS VBG NNP NNP NNS , NN , VBP JJ NNS , RB VBD . 
-IN NNS RB IN NNS RB IN JJ NNS VBG NNP NNP NNS NN VBP JJ NNS RB VBD 
-and though I gift propheci , understand mysteri , knowledg ; though I faith I could remov mountain , chariti , I noth . 
-CC IN PRP VBP RB , JJ NNS , NN : IN PRP VBP PRP MD VB NNS , NN , PRP NN . 
-CC IN PRP VBP RB JJ NNS NN IN PRP VBP PRP MD VB NNS NN PRP NN 
-halfway west egg new york citi sprawl desol plain , gray valley new york 's ash dump . 
-NNP NNP NNP NNP NNP NNP VBP NN NN , JJ JJ NNP NNP POS NNS VBD . 
-NNP NNP NNP NNP NNP NNP VBP NN NN JJ JJ NNP NNP POS NNS VBD 
-unprovid origin learn , uninform habit think , unskil art composit , I resolv write book . 
-VBN JJ NN , JJ NNS VBG , JJ NNS NN , PRP VBD JJ NN . 
-VBN JJ NN JJ NNS VBG JJ NNS NN PRP VBD JJ NN 
-and though I gift propheci , understand mysteri , knowledg ; though I faith , I could remov mountain , chariti , I noth . 
-CC IN PRP VBP RB , JJ NNS , NN : IN PRP VBP , PRP MD VB NNS , NN , PRP NN . 
-CC IN PRP VBP RB JJ NNS NN IN PRP VBP PRP MD VB NNS NN PRP NN 
-suddenli , appar reason , start argu . 
-RB , JJ NN , VBD VBG . 
-RB JJ NN VBD VBG 
-unabl read due myopia , child ask wear glass . 
-JJ NN JJ NN , NN VBD JJ NNS . 
-JJ NN JJ NN NN VBD JJ NNS 
-spend time pristin beach , listen wave , gaze clear sky , sure enjoy vacat . 
-NN NN JJ NN , VBG NNS , VBG JJ NN , RB VBG NN . 
-NN NN JJ NN VBG NNS VBG JJ NN RB VBG NN 
-encourag success femal candid , sever women decid run offic . 
-NNP NN NN NNS , JJ NNS VBD JJ NN . 
-NNP NN NN NNS JJ NNS VBD JJ NN 
-rapt thought , think moment spent togeth , wait come back . 
-NNP NNS , VBG NNS VBN RB , VBD VBN RB . 
-NNP NNS VBG NNS VBN RB VBD VBN RB 
-If look , never abl forget . 
-IN NN , RB JJ NN . 
-IN NN RB JJ NN 
-As long come work time , finish task assign , treat everyon respect , I n't problem . 
-IN RB VBZ NN NN , NNS NNS VBD , VBZ NN NN , PRP RB NN . 
-IN RB VBZ NN NN NNS NNS VBD VBZ NN NN PRP RB NN 
-with one look , one listen felt , die lone man . 
-IN CD NN , CD NN VBD , VBD JJ NN . 
-IN CD NN CD NN VBD VBD JJ NN 
-If kind person care other , put interest other , never refus propos . 
-IN NN NN VBZ NNS , VBZ NNS NNS , RB VBP NN . 
-IN NN NN VBZ NNS VBZ NNS NNS RB VBP NN 
-although lost money gambl , still ask friend loan money . 
-IN VBN NN NN , RB VBG NNS NN NN . 
-IN VBN NN NN RB VBG NNS NN NN 
-In spite ici wind heavi rain , player continu play . 
-IN JJ NN NNS JJ NN , NNS VBD NN . 
-IN JJ NN NNS JJ NN NNS VBD NN 
-after come back work , cook dinner , clean dish , still manag find time read . 
-IN VBG RB NN , VBG NN , VBG NNS , RB VBN JJ NN NN . 
-IN VBG RB NN VBG NN VBG NNS RB VBN JJ NN NN 
-when I look face , I complet forgot I need tell . 
-WRB PRP VBD NN , PRP RB VBD PRP VBD NN . 
-WRB PRP VBD NN PRP RB VBD PRP VBD NN 
-whatev reason , whether 's pride shyness , like come parti . 
-WDT NN , IN POS NN NN , JJ VBP NN . 
-WDT NN IN POS NN NN JJ VBP NN 
-never leav hous , come may , 's like prison hous . 
-RB VBG NN , VB MD , POS IN NN NN . 
-RB VBG NN VB MD POS IN NN NN 
-though practic sing lesson daili basi , religi follow instruct given teacher , like success singer . 
-IN NNS VBG NNS JJ NN , RB VBZ NNS VBN RB , RB JJ NN . 
-IN NNS VBG NNS JJ NN RB VBZ NNS VBN RB RB JJ NN 
-consid low crime rate , scenic beauti , simplic peopl , good weather , I will live rest life . 
-VBG JJ NN NN , JJ NN , NN NNS , JJ NN , PRP JJ JJ NN NN . 
-VBG JJ NN NN JJ NN NN NNS JJ NN PRP JJ JJ NN NN 
-If affront begin , would n't face problem . 
-IN JJ NN , MD RB VB NN . 
-IN JJ NN MD RB VB NN 
-In spite heavi snow cold temperatur , game continu . 
-IN JJ JJ NNS JJ NNS , NN VBD . 
-IN JJ JJ NNS JJ NNS NN VBD 
-with low tax , beauti view mild climat , citi great place live . 
-IN JJ NNS , JJ NNS JJ NN , NN JJ NN VBP . 
-IN JJ NNS JJ NNS JJ NN NN JJ NN VBP 
-posit think , help us stay focus maintain good attitud , import happi life . 
-JJ NN , VBG PRP VB JJ VBG JJ NN , JJ JJ NN . 
-JJ NN VBG PRP VB JJ VBG JJ NN JJ JJ NN 
-becaus ad pool , spa restaur , hotel experienc increas guest . 
-IN VBG NN , NN NN , NN VBG NN NNS . 
-IN VBG NN NN NN NN VBG NN NNS 
-present , winner seven academi award two toni award , I present star tonight 's play , herbert smith . 
-VBG , NN CD NNP NNP CD NNP NNPS , PRP VBP JJ NN POS NN , NNP NNP . 
-VBG NN CD NNP NNP CD NNP NNPS PRP VBP JJ NN POS NN NNP NNP 
-after shop mall , walk dog wash car , I final got stay relax . 
-IN VBG NN , VBG NNS VBG NN , PRP RB VBD JJ RB . 
-IN VBG NN VBG NNS VBG NN PRP RB VBD JJ RB 
-If price good qualiti excel , I might consid buy design dress . 
-IN NN JJ NN NN , PRP MD VB VBG NN NN . 
-IN NN JJ NN NN PRP MD VB VBG NN NN 
-renew energi resourc , like wind , solar , geotherm , answer earth 's energi problem . 
-JJ NN NNS , IN NN , JJ , JJ , NNS NNP POS NN NNS . 
-JJ NN NNS IN NN JJ JJ NNS NNP POS NN NNS 
-with blood-curdl scream claw outstretch , eagl went rabbit . 
-IN JJ NN NN VBD , FW VBD NN . 
-IN JJ NN NN VBD FW VBD NN 
-the beach , white sand , crystal clear water , palm tree , favorit hangout local . 
-DT NN , JJ NN , JJ JJ NN , NN NNS , JJ NN NNS . 
-DT NN JJ NN JJ JJ NN NN NNS JJ NN NNS 
-now , year research mani modif , latest model hybrid . 
-RB , NNS NN JJ NNS , JJS NN NN . 
-RB NNS NN JJ NNS JJS NN NN 
-the gazel , peac drink unawar danger , soon target lioness . 
-DT NN , RB VBG JJ NN , RB NN NN . 
-DT NN RB VBG JJ NN RB NN NN 
-with beauti set pyrotechn display , act sure pleas . 
-IN JJ NN JJ NN , JJ JJ NN . 
-IN JJ NN JJ NN JJ JJ NN 
-proper mainten , like check tire pressur , chang oil get tune-up , ensur best ga mileag car . 
-JJ NN , IN VBG NN NN , VBG NN VBG NNS , VB JJS NN NN NN . 
-JJ NN IN VBG NN NN VBG NN VBG NNS VB JJS NN NN NN 
-consid attent , friendli speed servic , waiter definit get good tip . 
-VBG NN , RB NN NN , NN RB VBG JJ NN . 
-VBG NN RB NN NN NN RB VBG JJ NN 
-spring , new bud pop , flower bloom , mild temperatur , favorit season . 
-NN , JJ NN NN , NNS VBP , JJ NNS , JJ NN . 
-NN JJ NN NN NNS VBP JJ NNS JJ NN 
-whether peer pressur idea , mari tri glee club made . 
-NNP NN NN NN , NNP VBD NN NN VBD . 
-NNP NN NN NN NNP VBD NN NN VBD 
-In spite lose one ship weather storm , columbu made back spain . 
-IN NN VBG CD NN VBG NN , NNP VBD RP NNP . 
-IN NN VBG CD NN VBG NN NNP VBD RP NNP 
-By smell barbequ firework sky , I knew independ day . 
-IN NN VBG NNS NN , PRP VBD NNP NNP . 
-IN NN VBG NNS NN PRP VBD NNP NNP 
-after comb ad job send hundr resum , steve final got dream job . 
-IN VBG NN NNS VBG NNS NNS , NNP RB VBD JJ NN . 
-IN VBG NN NNS VBG NNS NNS NNP RB VBD JJ NN 
-sever weather system melt polar ice cap sign climat chang . 
-NNP NN NNS VBG JJ NN NNS NNS VBP NN . 
-NNP NN NNS VBG JJ NN NNS NNS VBP NN 
-becaus independ , take care , purr , I prefer cat dog . 
-IN JJ , VB NN , NN , PRP VBP JJ NNS . 
-IN JJ VB NN NN PRP VBP JJ NNS 
-To believ thought , believ true privat heart true men , geniu . 
-TO VB NN , VBP JJ JJ NN JJ NNS , NN . 
-TO VB NN VBP JJ JJ NN JJ NNS NN 
-In week departur arraki , final scurri reach nearli unbear frenzi , old crone came visit mother boy , paul . 
-IN NN NN NNP , JJ NN VBD RB JJ NN , JJ NN VBD RB RBR NN , NNP . 
-IN NN NN NNP JJ NN VBD RB JJ NN JJ NN VBD RB RBR NN NNP 
-unprovid origin learn , uninform habit think , unskil art composit , I resolv -- write book . 
-VBN JJ NN , JJ NNS VBG , JJ NNS NN , PRP VBD : JJ NN . 
-VBN JJ NN JJ NNS VBG JJ NNS NN PRP VBD JJ NN 
-becaus rain , I went hous . 
-IN NN , PRP VBD NN . 
-IN NN PRP VBD NN 
-unabl join other danc sprain ankl , I went movi . 
-JJ NN NNS NN VBD RB , PRP VBD NN . 
-JJ NN NNS NN VBD RB PRP VBD NN 
-the proper place sentenc word group word writer desir make promin usual end . 
-DT JJ NN NN NN NN NNS NN NNS VBP JJ RB VBP . 
-DT JJ NN NN NN NN NNS NN NNS VBP JJ RB VBP 
+@: despit blind snow , freez temperatur , heighten threat attack polar bear , team continu . 
+#: IN VBG NN , VBG NNS , VBD NN NN JJ NNS , NN VBD . 
+%: IN VBG NN VBG NNS VBD NN NN JJ NNS NN VBD 
+@: the winner best citi , mile-long modern shop mall , cycl path hug everi road , network canal , milton keyn . 
+#: DT NN JJS NN , JJ JJ NN NN , NN NNS VBG DT NN , NN NNS , NNP NNP . 
+%: DT NN JJS NN JJ JJ NN NN NN NNS VBG DT NN NN NNS NNP NNP 
+@: with two raw blister unabl carri pack due two broken rib broken collar bone , I stare dead phone pleadingli . 
+#: IN CD JJ NNS JJ VBP VB JJ CD JJ NNS VBN JJ NN , PRP VBD JJ NN RB . 
+%: IN CD JJ NNS JJ VBP VB JJ CD JJ NNS VBN JJ NN PRP VBD JJ NN RB 
+@: when I shop town yesterday , I saw mike . 
+#: WRB PRP VBG NN NN , PRP VBD NNP . 
+%: WRB PRP VBG NN NN PRP VBD NNP 
+@: becaus know file system , experi rest team , get work moment 's notic , sarah charg next week . 
+#: IN VBZ VBG NN , NN NN NN , VB NN NN POS NN , NNP NN JJ NN . 
+%: IN VBZ VBG NN NN NN NN VB NN NN POS NN NNP NN JJ NN 
+@: with bu ride home loaf bread still buy , I fed machin last coin . 
+#: IN JJ NN NN NN NN RB VB , PRP VBP NN JJ NN . 
+%: IN JJ NN NN NN NN RB VB PRP VBP NN JJ NN 
+@: despit gust side wind fog like soup , lower land gear . 
+#: IN VBG JJ NNS VBP IN NN , VBD JJ NN . 
+%: IN VBG JJ NNS VBP IN NN VBD JJ NN 
+@: simpl mainten , like top water , chang oil , regular tune , doubl life car . 
+#: JJ NN , IN VBG NN , VBG NN , JJ NN , JJ NN NN . 
+%: JJ NN IN VBG NN VBG NN JJ NN JJ NN NN 
+@: autumn , spray gold , red , yellow , cool temperatur crisp air , season . 
+#: NNP , NN NN , JJ , JJ , JJ NNS VBP NN , NN . 
+%: NNP NN NN JJ JJ JJ NNS VBP NN NN 
+@: Of boy could , peopl could , one person want see , georg . 
+#: IN NNS MD , NNS MD , CD NN VBD NN , NNP . 
+%: IN NNS MD NNS MD CD NN VBD NN NNP 
+@: with two deep wound arm coupl sprain strain , I still determin continu move trek crawl . 
+#: IN CD JJ NNS NNS NN VBZ NNS , PRP RB VBD JJ VBG NN NN . 
+%: IN CD JJ NNS NNS NN VBZ NNS PRP RB VBD JJ VBG NN NN 
+@: when set heart fall love year , alreadi found new boyfriend first day new year . 
+#: WRB VBN NN NN VBD NN , RB VBD JJ NN RB NN JJ NN . 
+%: WRB VBN NN NN VBD NN RB VBD JJ NN RB NN JJ NN 
+@: encourag sole person spoke issu , rest peopl affect also began speak one one . 
+#: VBN JJ NN VBD NN , VBP NNS VBD RB VBD JJ CD NN . 
+%: VBN JJ NN VBD NN VBP NNS VBD RB VBD JJ CD NN 
+@: drown thought , think memori spent whole night , still long come back even though longer possibl . 
+#: VBN NNS , VBG NNS VBD JJ NN , RB VBD VBN RB RB IN JJR JJ . 
+%: VBN NNS VBG NNS VBD JJ NN RB VBD VBN RB RB IN JJR JJ 
+@: If look medusa , turn stone forev . 
+#: IN VBN NNP , VBD NN NN . 
+%: IN VBN NNP VBD NN NN 
+@: To believ thought , believ true privat heart true men , geniu . 
+#: TO VB NN , VBP JJ JJ NN JJ NNS , NN . 
+%: TO VB NN VBP JJ JJ NN JJ NNS NN 
+@: In week departur arraki , final scurri reach nearli unbear frenzi , old crone came visit mother boy , paul . 
+#: IN NN NN NNP , JJ NN VBD RB JJ NN , JJ NN VBD RB RBR NN , NNP . 
+%: IN NN NN NNP JJ NN VBD RB JJ NN JJ NN VBD RB RBR NN NNP 
+@: In almost incred brief time took small sturdi porter roll milk-can across platform bump , clang , milk-can similarli treat moment , ash fell love . 
+#: IN RB RB JJ NN VBD JJ JJ NN NN JJ IN NN NN , NN , NNS RB VBD NN , NNP VBD RB . 
+%: IN RB RB JJ NN VBD JJ JJ NN NN JJ IN NN NN NN NNS RB VBD NN NNP VBD RB 
+@: like water river , like motorist highway , like yellow train streak santa Fe track , drama , shape except happen , never stop . 
+#: IN NNS RB , IN NNS RB , IN JJ NNS VBG NNP NNP NNS , NN , VBP JJ NNS , RB VBD . 
+%: IN NNS RB IN NNS RB IN JJ NNS VBG NNP NNP NNS NN VBP JJ NNS RB VBD 
+@: and though I gift propheci , understand mysteri , knowledg ; though I faith I could remov mountain , chariti , I noth . 
+#: CC IN PRP VBP RB , JJ NNS , NN : IN PRP VBP PRP MD VB NNS , NN , PRP NN . 
+%: CC IN PRP VBP RB JJ NNS NN IN PRP VBP PRP MD VB NNS NN PRP NN 
+@: halfway west egg new york citi sprawl desol plain , gray valley new york 's ash dump . 
+#: NNP NNP NNP NNP NNP NNP VBP NN NN , JJ JJ NNP NNP POS NNS VBD . 
+%: NNP NNP NNP NNP NNP NNP VBP NN NN JJ JJ NNP NNP POS NNS VBD 
+@: unprovid origin learn , uninform habit think , unskil art composit , I resolv write book . 
+#: VBN JJ NN , JJ NNS VBG , JJ NNS NN , PRP VBD JJ NN . 
+%: VBN JJ NN JJ NNS VBG JJ NNS NN PRP VBD JJ NN 
+@: and though I gift propheci , understand mysteri , knowledg ; though I faith , I could remov mountain , chariti , I noth . 
+#: CC IN PRP VBP RB , JJ NNS , NN : IN PRP VBP , PRP MD VB NNS , NN , PRP NN . 
+%: CC IN PRP VBP RB JJ NNS NN IN PRP VBP PRP MD VB NNS NN PRP NN 
+@: suddenli , appar reason , start argu . 
+#: RB , JJ NN , VBD VBG . 
+%: RB JJ NN VBD VBG 
+@: unabl read due myopia , child ask wear glass . 
+#: JJ NN JJ NN , NN VBD JJ NNS . 
+%: JJ NN JJ NN NN VBD JJ NNS 
+@: spend time pristin beach , listen wave , gaze clear sky , sure enjoy vacat . 
+#: NN NN JJ NN , VBG NNS , VBG JJ NN , RB VBG NN . 
+%: NN NN JJ NN VBG NNS VBG JJ NN RB VBG NN 
+@: encourag success femal candid , sever women decid run offic . 
+#: NNP NN NN NNS , JJ NNS VBD JJ NN . 
+%: NNP NN NN NNS JJ NNS VBD JJ NN 
+@: rapt thought , think moment spent togeth , wait come back . 
+#: NNP NNS , VBG NNS VBN RB , VBD VBN RB . 
+%: NNP NNS VBG NNS VBN RB VBD VBN RB 
+@: If look , never abl forget . 
+#: IN NN , RB JJ NN . 
+%: IN NN RB JJ NN 
+@: As long come work time , finish task assign , treat everyon respect , I n't problem . 
+#: IN RB VBZ NN NN , NNS NNS VBD , VBZ NN NN , PRP RB NN . 
+%: IN RB VBZ NN NN NNS NNS VBD VBZ NN NN PRP RB NN 
+@: with one look , one listen felt , die lone man . 
+#: IN CD NN , CD NN VBD , VBD JJ NN . 
+%: IN CD NN CD NN VBD VBD JJ NN 
+@: If kind person care other , put interest other , never refus propos . 
+#: IN NN NN VBZ NNS , VBZ NNS NNS , RB VBP NN . 
+%: IN NN NN VBZ NNS VBZ NNS NNS RB VBP NN 
+@: although lost money gambl , still ask friend loan money . 
+#: IN VBN NN NN , RB VBG NNS NN NN . 
+%: IN VBN NN NN RB VBG NNS NN NN 
+@: In spite ici wind heavi rain , player continu play . 
+#: IN JJ NN NNS JJ NN , NNS VBD NN . 
+%: IN JJ NN NNS JJ NN NNS VBD NN 
+@: after come back work , cook dinner , clean dish , still manag find time read . 
+#: IN VBG RB NN , VBG NN , VBG NNS , RB VBN JJ NN NN . 
+%: IN VBG RB NN VBG NN VBG NNS RB VBN JJ NN NN 
+@: when I look face , I complet forgot I need tell . 
+#: WRB PRP VBD NN , PRP RB VBD PRP VBD NN . 
+%: WRB PRP VBD NN PRP RB VBD PRP VBD NN 
+@: whatev reason , whether 's pride shyness , like come parti . 
+#: WDT NN , IN POS NN NN , JJ VBP NN . 
+%: WDT NN IN POS NN NN JJ VBP NN 
+@: never leav hous , come may , 's like prison hous . 
+#: RB VBG NN , VB MD , POS IN NN NN . 
+%: RB VBG NN VB MD POS IN NN NN 
+@: though practic sing lesson daili basi , religi follow instruct given teacher , like success singer . 
+#: IN NNS VBG NNS JJ NN , RB VBZ NNS VBN RB , RB JJ NN . 
+%: IN NNS VBG NNS JJ NN RB VBZ NNS VBN RB RB JJ NN 
+@: consid low crime rate , scenic beauti , simplic peopl , good weather , I will live rest life . 
+#: VBG JJ NN NN , JJ NN , NN NNS , JJ NN , PRP JJ JJ NN NN . 
+%: VBG JJ NN NN JJ NN NN NNS JJ NN PRP JJ JJ NN NN 
+@: If affront begin , would n't face problem . 
+#: IN JJ NN , MD RB VB NN . 
+%: IN JJ NN MD RB VB NN 
+@: In spite heavi snow cold temperatur , game continu . 
+#: IN JJ JJ NNS JJ NNS , NN VBD . 
+%: IN JJ JJ NNS JJ NNS NN VBD 
+@: with low tax , beauti view mild climat , citi great place live . 
+#: IN JJ NNS , JJ NNS JJ NN , NN JJ NN VBP . 
+%: IN JJ NNS JJ NNS JJ NN NN JJ NN VBP 
+@: posit think , help us stay focus maintain good attitud , import happi life . 
+#: JJ NN , VBG PRP VB JJ VBG JJ NN , JJ JJ NN . 
+%: JJ NN VBG PRP VB JJ VBG JJ NN JJ JJ NN 
+@: becaus ad pool , spa restaur , hotel experienc increas guest . 
+#: IN VBG NN , NN NN , NN VBG NN NNS . 
+%: IN VBG NN NN NN NN VBG NN NNS 
+@: present , winner seven academi award two toni award , I present star tonight 's play , herbert smith . 
+#: VBG , NN CD NNP NNP CD NNP NNPS , PRP VBP JJ NN POS NN , NNP NNP . 
+%: VBG NN CD NNP NNP CD NNP NNPS PRP VBP JJ NN POS NN NNP NNP 
+@: after shop mall , walk dog wash car , I final got stay relax . 
+#: IN VBG NN , VBG NNS VBG NN , PRP RB VBD JJ RB . 
+%: IN VBG NN VBG NNS VBG NN PRP RB VBD JJ RB 
+@: If price good qualiti excel , I might consid buy design dress . 
+#: IN NN JJ NN NN , PRP MD VB VBG NN NN . 
+%: IN NN JJ NN NN PRP MD VB VBG NN NN 
+@: renew energi resourc , like wind , solar , geotherm , answer earth 's energi problem . 
+#: JJ NN NNS , IN NN , JJ , JJ , NNS NNP POS NN NNS . 
+%: JJ NN NNS IN NN JJ JJ NNS NNP POS NN NNS 
+@: with blood-curdl scream claw outstretch , eagl went rabbit . 
+#: IN JJ NN NN VBD , FW VBD NN . 
+%: IN JJ NN NN VBD FW VBD NN 
+@: the beach , white sand , crystal clear water , palm tree , favorit hangout local . 
+#: DT NN , JJ NN , JJ JJ NN , NN NNS , JJ NN NNS . 
+%: DT NN JJ NN JJ JJ NN NN NNS JJ NN NNS 
+@: now , year research mani modif , latest model hybrid . 
+#: RB , NNS NN JJ NNS , JJS NN NN . 
+%: RB NNS NN JJ NNS JJS NN NN 
+@: the gazel , peac drink unawar danger , soon target lioness . 
+#: DT NN , RB VBG JJ NN , RB NN NN . 
+%: DT NN RB VBG JJ NN RB NN NN 
+@: with beauti set pyrotechn display , act sure pleas . 
+#: IN JJ NN JJ NN , JJ JJ NN . 
+%: IN JJ NN JJ NN JJ JJ NN 
+@: proper mainten , like check tire pressur , chang oil get tune-up , ensur best ga mileag car . 
+#: JJ NN , IN VBG NN NN , VBG NN VBG NNS , VB JJS NN NN NN . 
+%: JJ NN IN VBG NN NN VBG NN VBG NNS VB JJS NN NN NN 
+@: consid attent , friendli speed servic , waiter definit get good tip . 
+#: VBG NN , RB NN NN , NN RB VBG JJ NN . 
+%: VBG NN RB NN NN NN RB VBG JJ NN 
+@: spring , new bud pop , flower bloom , mild temperatur , favorit season . 
+#: NN , JJ NN NN , NNS VBP , JJ NNS , JJ NN . 
+%: NN JJ NN NN NNS VBP JJ NNS JJ NN 
+@: whether peer pressur idea , mari tri glee club made . 
+#: NNP NN NN NN , NNP VBD NN NN VBD . 
+%: NNP NN NN NN NNP VBD NN NN VBD 
+@: In spite lose one ship weather storm , columbu made back spain . 
+#: IN NN VBG CD NN VBG NN , NNP VBD RP NNP . 
+%: IN NN VBG CD NN VBG NN NNP VBD RP NNP 
+@: By smell barbequ firework sky , I knew independ day . 
+#: IN NN VBG NNS NN , PRP VBD NNP NNP . 
+%: IN NN VBG NNS NN PRP VBD NNP NNP 
+@: after comb ad job send hundr resum , steve final got dream job . 
+#: IN VBG NN NNS VBG NNS NNS , NNP RB VBD JJ NN . 
+%: IN VBG NN NNS VBG NNS NNS NNP RB VBD JJ NN 
+@: sever weather system melt polar ice cap sign climat chang . 
+#: NNP NN NNS VBG JJ NN NNS NNS VBP NN . 
+%: NNP NN NNS VBG JJ NN NNS NNS VBP NN 
+@: becaus independ , take care , purr , I prefer cat dog . 
+#: IN JJ , VB NN , NN , PRP VBP JJ NNS . 
+%: IN JJ VB NN NN PRP VBP JJ NNS 
+@: To believ thought , believ true privat heart true men , geniu . 
+#: TO VB NN , VBP JJ JJ NN JJ NNS , NN . 
+%: TO VB NN VBP JJ JJ NN JJ NNS NN 
+@: In week departur arraki , final scurri reach nearli unbear frenzi , old crone came visit mother boy , paul . 
+#: IN NN NN NNP , JJ NN VBD RB JJ NN , JJ NN VBD RB RBR NN , NNP . 
+%: IN NN NN NNP JJ NN VBD RB JJ NN JJ NN VBD RB RBR NN NNP 
+@: unprovid origin learn , uninform habit think , unskil art composit , I resolv -- write book . 
+#: VBN JJ NN , JJ NNS VBG , JJ NNS NN , PRP VBD : JJ NN . 
+%: VBN JJ NN JJ NNS VBG JJ NNS NN PRP VBD JJ NN 
+@: becaus rain , I went hous . 
+#: IN NN , PRP VBD NN . 
+%: IN NN PRP VBD NN 
+@: unabl join other danc sprain ankl , I went movi . 
+#: JJ NN NNS NN VBD RB , PRP VBD NN . 
+%: JJ NN NNS NN VBD RB PRP VBD NN 
+@: the proper place sentenc word group word writer desir make promin usual end . 
+#: DT JJ NN NN NN NN NNS NN NNS VBP JJ RB VBP . 
+%: DT JJ NN NN NN NN NNS NN NNS VBP JJ RB VBP 
