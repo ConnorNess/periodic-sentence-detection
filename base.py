@@ -58,23 +58,41 @@ training_PoS_file = open(os.path.join(sys.path[0],'TrainingCleaned.txt'), 'r')
 PoS_frequency = []
 #PoS_frequency_no_punctuation = numpy.array([])
 comma_length_to_end = []
+PoS_order_frequency = []
+
+tree_array = []
+tree_array_no_punctuation = []
+
 
 
 for line in training_PoS_file:
-    words_after_comma = 0
+    words_after_comma = 0 
+    word_counter = 1
     comma_present = False
+    characters_length = 0
 
     if line[0:3] == "#: ":
         trimmed_line = line[3:-3] #Takes off identifier and newline straggler
-        PoS_frequency.append(trimmed_line)
-        for word in line:
+        sentence_length = len(trimmed_line.split())
+
+        #Comma-To-End checker - Counts distance from last comma to end of sentence to calculate occurances
+        for word in word_tokenize(trimmed_line):
             if word == "," and comma_present == False:
                 comma_present = True
             if word == "," and comma_present == True:
                 words_after_comma = 0
             if word != "," and comma_present == True:
                 words_after_comma += 1
-        
+
+            PoS_frequency.append(word) #Part of Speech checker - Counts each instance of parts of speech to count occurances//independant of order
+
+            characters_length += len(word)
+
+            #if ((sentence_length - word_counter) >= 3): #Trends can't really be one or two elements long can they tho
+            PoS_order_frequency.append(trimmed_line[characters_length:]) #Checks frequencies of orders of parts of speech
+
+            word_counter += 1
+
         if words_after_comma != 0:
             comma_length_to_end.append(words_after_comma)
 
@@ -82,13 +100,20 @@ for line in training_PoS_file:
         #trimmed_line = line[3:-3]
         #numpy.append(PoS_frequency_no_punctuation, line)
 
+#Checks part of speech frequencies and occurances
 (unique, counts) = numpy.unique(PoS_frequency, return_counts=True)
+frequencies = numpy.asarray((unique, counts)).T
+print(frequencies)
+
+#How many words after comma frequency
+(unique, counts) = numpy.unique(comma_length_to_end, return_counts=True)
 frequencies = numpy.asarray((unique, counts)).T
 #print(frequencies)
 
-(unique, counts) = numpy.unique(comma_length_to_end, return_counts=True)
+#Order of PoS frequency
+(unique, counts) = numpy.unique(PoS_order_frequency, return_counts=True)
 frequencies = numpy.asarray((unique, counts)).T
-print(frequencies)
+#print(frequencies)
 
 ###---------------------------------------------------INPUT---------------------------------------------------###
 def input_file(): #Takes in input file and tokenizes sentences
