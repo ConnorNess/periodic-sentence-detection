@@ -190,9 +190,6 @@
 @: To believ thought , believ true privat heart true men , geniu . 
 #: TO VB NN , VBP JJ JJ NN JJ NNS , NN . 
 %: TO VB NN VBP JJ JJ NN JJ NNS NN 
-@: In week departur arraki , final scurri reach nearli unbear frenzi , old crone came visit mother boy , paul . 
-#: IN NN NN NNP , JJ NN VBD RB JJ NN , JJ NN VBD RB RBR NN , NNP . 
-%: IN NN NN NNP JJ NN VBD RB JJ NN JJ NN VBD RB RBR NN NNP 
 @: unprovid origin learn , uninform habit think , unskil art composit , I resolv -- write book . 
 #: VBN JJ NN , JJ NNS VBG , JJ NNS NN , PRP VBD : JJ NN . 
 %: VBN JJ NN JJ NNS VBG JJ NNS NN PRP VBD JJ NN 
