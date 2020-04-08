@@ -517,8 +517,8 @@ for sentence in sentenceTokens:
     #Non-Punctuation Tests
     #3 words
     three_passes_no_punctuation = 0
-    for each in most_common_PoS_five_frequencies_no_punctuation_lengths:
-        for orders in sent_PoS_five_frequency:
+    for each in most_common_PoS_three_frequencies_no_punctuation_lengths:
+        for orders in sent_PoS_three_frequency:
             if orders == each:
                 three_passes_no_punctuation += 1
     print("3 PoS Similarities (No punctuation): " + str(three_passes_no_punctuation))
@@ -527,8 +527,8 @@ for sentence in sentenceTokens:
 
     four_passes_no_punctuation = 0
     #4 words
-    for each in most_common_PoS_five_frequencies_no_punctuation_lengths:
-        for orders in sent_PoS_five_frequency:
+    for each in most_common_PoS_four_frequencies_no_punctuation_lengths:
+        for orders in sent_PoS_four_frequency:
             if orders == each:
                 four_passes_no_punctuation += 1
     print("4 PoS Similarities (No punctuation): " + str(four_passes_no_punctuation))
