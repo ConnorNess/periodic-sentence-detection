@@ -379,12 +379,6 @@ if os.path.exists(os.path.join('output.txt')): #Deleting and remaking output fil
         os.remove(os.path.join(sys.path[0],'output.txt'))
 output_file = open(os.path.join(sys.path[0],'output.txt'), 'w')
 
-sent_PoS_three_frequency = []
-sent_PoS_four_frequency = []
-sent_PoS_five_frequency = []
-sent_PoS_three_frequency_no_punctuation = []
-sent_PoS_four_frequency_no_punctuation = []
-sent_PoS_five_frequency_no_punctuation = []
 
 for sentence in sentenceTokens:
     number_of_tests_passed = 0
@@ -394,6 +388,13 @@ for sentence in sentenceTokens:
     sentencePoS_no_punctuation = ""
     comma_present = False
     words_after_comma = 0 
+
+    sent_PoS_three_frequency = []
+    sent_PoS_four_frequency = []
+    sent_PoS_five_frequency = []
+    sent_PoS_three_frequency_no_punctuation = []
+    sent_PoS_four_frequency_no_punctuation = []
+    sent_PoS_five_frequency_no_punctuation = []
 
     words = nltk.word_tokenize(sentence)
     filtered_sentence = [w for w in words if not w in stop_words]
@@ -469,7 +470,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 three_passes += 1
     print("3 PoS Similarities: " + str(three_passes))
-    if(three_passes > 1):
+    if(three_passes >= 1):
         number_of_tests_passed += 1
 
     four_passes = 0
@@ -479,7 +480,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 four_passes += 1
     print("4 PoS Similarities: " + str(four_passes))
-    if(four_passes > 1):
+    if(four_passes >= 1):
         number_of_tests_passed += 1
 
     five_passes = 0
@@ -489,7 +490,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 five_passes += 1
     print("5 PoS Similarities: " + str(five_passes))
-    if(five_passes > 1):
+    if(five_passes >= 1):
         number_of_tests_passed += 1
 
     first_word = 0
@@ -522,7 +523,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 three_passes_no_punctuation += 1
     print("3 PoS Similarities (No punctuation): " + str(three_passes_no_punctuation))
-    if(three_passes_no_punctuation > 1):
+    if(three_passes_no_punctuation >= 1):
         number_of_tests_passed += 1
 
     four_passes_no_punctuation = 0
@@ -532,7 +533,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 four_passes_no_punctuation += 1
     print("4 PoS Similarities (No punctuation): " + str(four_passes_no_punctuation))
-    if(four_passes_no_punctuation > 1):
+    if(four_passes_no_punctuation >= 1):
         number_of_tests_passed += 1
 
     five_passes_no_punctuation = 0
@@ -542,7 +543,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 five_passes_no_punctuation += 1
     print("5 PoS Similarities (No punctuation): " + str(five_passes_no_punctuation))
-    if(five_passes_no_punctuation > 1):
+    if(five_passes_no_punctuation >= 1):
         number_of_tests_passed += 1
     
     
