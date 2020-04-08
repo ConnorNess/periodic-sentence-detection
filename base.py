@@ -74,11 +74,11 @@ for line in training_PoS_file:
     three_words = []
     four_words = []
     five_words = []
-    first_word = 0
-    second_word = 1
-    third_word = 2
-    fourth_word = 3
-    fifth_word = 4
+    first_word = 2  #Starts at 2 and not 0 as file identifiers take 2 characters
+    second_word = 3
+    third_word = 4
+    fourth_word = 5
+    fifth_word = 6
 
     if line[0:3] == "#: ":
         trimmed_line = line[3:-3] #Takes off identifier and newline straggler
@@ -97,13 +97,13 @@ for line in training_PoS_file:
         #Fills arrays of part of speech orderings
         while fifth_word != sent_length:
             three_words = [all_words[first_word], all_words[second_word], all_words[third_word]]
-            PoS_three_frequency.append(three_words)
+            PoS_three_frequency.append(str(three_words))
 
             four_words = [all_words[first_word], all_words[second_word], all_words[third_word], all_words[fourth_word]]
-            PoS_four_frequency.append(four_words)
+            PoS_four_frequency.append(str(four_words))
 
             five_words = [all_words[first_word], all_words[second_word], all_words[third_word], all_words[fourth_word], all_words[fifth_word]]
-            PoS_five_frequency.append(five_words)
+            PoS_five_frequency.append(str(five_words))
 
             first_word += 1
             second_word += 1
@@ -125,13 +125,13 @@ for line in training_PoS_file:
         #Fills arrays of part of speech orderings
         while fifth_word != sent_length:
             three_words = [all_words[first_word], all_words[second_word], all_words[third_word]]
-            PoS_three_frequency_no_punctuation.append(three_words)
+            PoS_three_frequency_no_punctuation.append(str(three_words))
 
             four_words = [all_words[first_word], all_words[second_word], all_words[third_word], all_words[fourth_word]]
-            PoS_four_frequency_no_punctuation.append(four_words)
+            PoS_four_frequency_no_punctuation.append(str(four_words))
 
             five_words = [all_words[first_word], all_words[second_word], all_words[third_word], all_words[fourth_word], all_words[fifth_word]]
-            PoS_five_frequency_no_punctuation.append(five_words)
+            PoS_five_frequency_no_punctuation.append(str(five_words))
 
             first_word += 1
             second_word += 1
@@ -205,10 +205,10 @@ top_num_PoS_three_frequencies_no_punctuation = numpy.array(PoS_three_frequencies
 num_of_rows_PoS_three_frequencies_no_punctuation = numpy.size(PoS_three_frequencies_no_punctuation, 0)
 
 num_of_Pos_three_frequencies_no_punctuation_highest_elements = 0 
-if ((int(num_of_rows_PoS/10)) < 3):
+if ((int(num_of_rows_PoS_three_frequencies_no_punctuation/10)) < 3):
     num_of_Pos_three_frequencies_no_punctuation_highest_elements = 3
 else:
-    num_of_Pos_three_frequencies_no_punctuation_highest_elements = (int(num_of_rows_PoS/10))
+    num_of_Pos_three_frequencies_no_punctuation_highest_elements = (int(num_of_rows_PoS_three_frequencies_no_punctuation/10))
 
 num_of_PoS_three_frequencies_no_punctuation_highest_elements_sort = num_of_Pos_highest_elements * -1
 PoS_three_frequencies_no_punctuation_indexes = top_num_PoS.argsort()[num_of_PoS_three_frequencies_no_punctuation_highest_elements_sort:][::-1]
@@ -219,7 +219,7 @@ top_Pos_three_frequencies_no_punctuation = numpy.array(PoS_three_frequencies_no_
 
 i = 0
 for each in PoS_three_frequencies_no_punctuation_indexes:
-    most_common_PoS_three_frequencies_no_punctuation_lengths.append(top_Pos[PoS_three_frequencies_no_punctuation_indexes[i]])
+    most_common_PoS_three_frequencies_no_punctuation_lengths.append(top_Pos_three_frequencies_no_punctuation[PoS_three_frequencies_no_punctuation_indexes[i]])
     i += 1
 
 #print(most_common_PoS_three_frequencies_no_punctuation_lengths)
@@ -233,10 +233,10 @@ top_num_PoS_four_frequencies_no_punctuation = numpy.array(PoS_four_frequencies_n
 num_of_rows_PoS_four_frequencies_no_punctuation = numpy.size(PoS_four_frequencies_no_punctuation, 0)
 
 num_of_Pos_four_frequencies_no_punctuation_highest_elements = 0 
-if ((int(num_of_rows_PoS/10)) < 3):
+if ((int(num_of_rows_PoS_four_frequencies_no_punctuation/10)) < 3):
     num_of_Pos_four_frequencies_no_punctuation_highest_elements = 3
 else:
-    num_of_Pos_four_frequencies_no_punctuation_highest_elements = (int(num_of_rows_PoS/10))
+    num_of_Pos_four_frequencies_no_punctuation_highest_elements = (int(num_of_rows_PoS_four_frequencies_no_punctuation/10))
 
 num_of_PoS_four_frequencies_no_punctuation_highest_elements_sort = num_of_Pos_highest_elements * -1
 PoS_four_frequencies_no_punctuation_indexes = top_num_PoS.argsort()[num_of_PoS_four_frequencies_no_punctuation_highest_elements_sort:][::-1]
@@ -247,7 +247,7 @@ top_Pos_four_frequencies_no_punctuation = numpy.array(PoS_four_frequencies_no_pu
 
 i = 0
 for each in PoS_four_frequencies_no_punctuation_indexes:
-    most_common_PoS_four_frequencies_no_punctuation_lengths.append(top_Pos[PoS_four_frequencies_no_punctuation_indexes[i]])
+    most_common_PoS_four_frequencies_no_punctuation_lengths.append(top_Pos_four_frequencies_no_punctuation[PoS_four_frequencies_no_punctuation_indexes[i]])
     i += 1
 
 #print(most_common_PoS_four_frequencies_no_punctuation_lengths)
@@ -261,10 +261,10 @@ top_num_PoS_five_frequencies_no_punctuation = numpy.array(PoS_five_frequencies_n
 num_of_rows_PoS_five_frequencies_no_punctuation = numpy.size(PoS_five_frequencies_no_punctuation, 0)
 
 num_of_Pos_five_frequencies_no_punctuation_highest_elements = 0 
-if ((int(num_of_rows_PoS/10)) < 3):
+if ((int(num_of_rows_PoS_five_frequencies_no_punctuation/10)) < 3):
     num_of_Pos_five_frequencies_no_punctuation_highest_elements = 3
 else:
-    num_of_Pos_five_frequencies_no_punctuation_highest_elements = (int(num_of_rows_PoS/10))
+    num_of_Pos_five_frequencies_no_punctuation_highest_elements = (int(num_of_rows_PoS_five_frequencies_no_punctuation/10))
 
 num_of_PoS_five_frequencies_no_punctuation_highest_elements_sort = num_of_Pos_highest_elements * -1
 PoS_five_frequencies_no_punctuation_indexes = top_num_PoS.argsort()[num_of_PoS_five_frequencies_no_punctuation_highest_elements_sort:][::-1]
@@ -275,7 +275,7 @@ top_Pos_five_frequencies_no_punctuation = numpy.array(PoS_five_frequencies_no_pu
 
 i = 0
 for each in PoS_five_frequencies_no_punctuation_indexes:
-    most_common_PoS_five_frequencies_no_punctuation_lengths.append(top_Pos[PoS_five_frequencies_no_punctuation_indexes[i]])
+    most_common_PoS_five_frequencies_no_punctuation_lengths.append(top_Pos_five_frequencies_no_punctuation[PoS_five_frequencies_no_punctuation_indexes[i]])
     i += 1
 
 #print(most_common_PoS_five_frequencies_no_punctuation_lengths)
@@ -289,10 +289,10 @@ top_num_PoS_three_frequencies = numpy.array(PoS_three_frequencies[:,1])
 num_of_rows_PoS_three_frequencies = numpy.size(PoS_three_frequencies, 0)
 
 num_of_Pos_three_frequencies_highest_elements = 0 
-if ((int(num_of_rows_PoS/10)) < 3):
+if ((int(num_of_rows_PoS_three_frequencies/10)) < 3):
     num_of_Pos_three_frequencies_highest_elements = 3
 else:
-    num_of_Pos_three_frequencies_highest_elements = (int(num_of_rows_PoS/10))
+    num_of_Pos_three_frequencies_highest_elements = (int(num_of_rows_PoS_three_frequencies/10))
 
 num_of_PoS_three_frequencies_highest_elements_sort = num_of_Pos_highest_elements * -1
 PoS_three_frequencies_indexes = top_num_PoS.argsort()[num_of_PoS_three_frequencies_highest_elements_sort:][::-1]
@@ -303,7 +303,7 @@ top_Pos_three_frequencies = numpy.array(PoS_three_frequencies[:,0])
 
 i = 0
 for each in PoS_three_frequencies_indexes:
-    most_common_PoS_three_frequencies_lengths.append(top_Pos[PoS_three_frequencies_indexes[i]])
+    most_common_PoS_three_frequencies_lengths.append(top_Pos_three_frequencies[PoS_three_frequencies_indexes[i]])
     i += 1
 
 #print(most_common_PoS_three_frequencies_lengths)
@@ -317,10 +317,10 @@ top_num_PoS_four_frequencies = numpy.array(PoS_four_frequencies[:,1])
 num_of_rows_PoS_four_frequencies = numpy.size(PoS_four_frequencies, 0)
 
 num_of_Pos_four_frequencies_highest_elements = 0 
-if ((int(num_of_rows_PoS/10)) < 3):
+if ((int(num_of_rows_PoS_four_frequencies/10)) < 3):
     num_of_Pos_four_frequencies_highest_elements = 3
 else:
-    num_of_Pos_four_frequencies_highest_elements = (int(num_of_rows_PoS/10))
+    num_of_Pos_four_frequencies_highest_elements = (int(num_of_rows_PoS_four_frequencies/10))
 
 num_of_PoS_four_frequencies_highest_elements_sort = num_of_Pos_highest_elements * -1
 PoS_four_frequencies_indexes = top_num_PoS.argsort()[num_of_PoS_four_frequencies_highest_elements_sort:][::-1]
@@ -331,7 +331,7 @@ top_Pos_four_frequencies = numpy.array(PoS_four_frequencies[:,0])
 
 i = 0
 for each in PoS_four_frequencies_indexes:
-    most_common_PoS_four_frequencies_lengths.append(top_Pos[PoS_four_frequencies_indexes[i]])
+    most_common_PoS_four_frequencies_lengths.append(top_Pos_four_frequencies[PoS_four_frequencies_indexes[i]])
     i += 1
 
 #print(most_common_PoS_four_frequencies_lengths)
@@ -345,10 +345,10 @@ top_num_PoS_five_frequencies = numpy.array(PoS_five_frequencies[:,1])
 num_of_rows_PoS_five_frequencies = numpy.size(PoS_five_frequencies, 0)
 
 num_of_Pos_five_frequencies_highest_elements = 0 
-if ((int(num_of_rows_PoS/10)) < 3):
+if ((int(num_of_rows_PoS_five_frequencies/10)) < 3):
     num_of_Pos_five_frequencies_highest_elements = 3
 else:
-    num_of_Pos_five_frequencies_highest_elements = (int(num_of_rows_PoS/10))
+    num_of_Pos_five_frequencies_highest_elements = (int(num_of_rows_PoS_five_frequencies/10))
 
 num_of_PoS_five_frequencies_highest_elements_sort = num_of_Pos_highest_elements * -1
 PoS_five_frequencies_indexes = top_num_PoS.argsort()[num_of_PoS_five_frequencies_highest_elements_sort:][::-1]
@@ -359,7 +359,7 @@ top_Pos_five_frequencies = numpy.array(PoS_five_frequencies[:,0])
 
 i = 0
 for each in PoS_five_frequencies_indexes:
-    most_common_PoS_five_frequencies_lengths.append(top_Pos[PoS_five_frequencies_indexes[i]])
+    most_common_PoS_five_frequencies_lengths.append(top_Pos_five_frequencies[PoS_five_frequencies_indexes[i]])
     i += 1
 
 #print(most_common_PoS_five_frequencies_lengths)
@@ -369,6 +369,10 @@ text = open(os.path.join(sys.path[0], 'input.txt'), 'r')
 user_file = text.read()
 sentenceTokens = nltk.sent_tokenize(user_file)
 
+if os.path.exists(os.path.join('output.txt')): #Deleting and remaking output file
+        os.remove(os.path.join(sys.path[0],'output.txt'))
+output_file = open(os.path.join(sys.path[0],'output.txt'), 'w') 
+
 sent_PoS_three_frequency = []
 sent_PoS_four_frequency = []
 sent_PoS_five_frequency = []
@@ -377,6 +381,8 @@ sent_PoS_four_frequency_no_punctuation = []
 sent_PoS_five_frequency_no_punctuation = []
 
 for sentence in sentenceTokens:
+    number_of_tests_passed = 0
+
     word_counter = 0
     sentencePoS = ""
     sentencePoS_no_punctuation = ""
@@ -386,7 +392,17 @@ for sentence in sentenceTokens:
     words = nltk.word_tokenize(sentence)
     filtered_sentence = [w for w in words if not w in stop_words]
     tagged_sentence = nltk.pos_tag(filtered_sentence)
+    
+    for word in filtered_sentence:
+        sentencePoS += (tagged_sentence[word_counter][1])
+        sentencePoS += " "
 
+        if punctuationremover.tokenize(word):
+                sentencePoS_no_punctuation += (tagged_sentence[word_counter][1])
+                sentencePoS_no_punctuation += " "
+
+        word_counter += 1
+    
     three_words = []
     four_words = []
     five_words = []
@@ -398,18 +414,12 @@ for sentence in sentenceTokens:
     third_word = 2
     fourth_word = 3
     fifth_word = 4
-    sent_length = len(word_tokenize(line))
-    all_words = word_tokenize(line)
-    all_words_no_punctuation = punctuationremover.tokenize(line)
+    sent_length = len(word_tokenize(sentencePoS))
+    sent_length_no_punctuation = len(word_tokenize(sentencePoS_no_punctuation))
+    all_words = word_tokenize(sentencePoS)
+    all_words_no_punctuation = punctuationremover.tokenize(sentencePoS_no_punctuation)
 
-    for word in filtered_sentence:
-        sentencePoS += (tagged_sentence_trainer[word_counter][1])
-        sentencePoS += " "
-
-        if punctuationremover.tokenize(word):
-            sentencePoS_no_punctuation += (tagged_sentence_trainer[word_counter][1])
-            sentencePoS_no_punctuation += " "
-
+    for word in word_tokenize(sentencePoS):
         word_counter += 1
 
         #Comma-To-End checker - Counts distance from last comma to end of sentence to calculate occurances
@@ -426,17 +436,18 @@ for sentence in sentenceTokens:
         for each in most_common_comma_lengths:
             if (words_after_comma == each):
                 print("Passes comma test")
+                number_of_tests_passed += 1
     
-    #Fill order arrays for testing
+    #Fill punctuation order arrays for testing
     while fifth_word != sent_length:
         three_words = [all_words[first_word], all_words[second_word], all_words[third_word]]
-        sent_PoS_three_frequency.append(three_words)
+        sent_PoS_three_frequency.append(str(three_words))
 
         four_words = [all_words[first_word], all_words[second_word], all_words[third_word], all_words[fourth_word]]
-        sent_PoS_four_frequency.append(four_words)
+        sent_PoS_four_frequency.append(str(four_words))
 
         five_words = [all_words[first_word], all_words[second_word], all_words[third_word], all_words[fourth_word], all_words[fifth_word]]
-        sent_PoS_five_frequency.append(five_words)
+        sent_PoS_five_frequency.append(str(five_words))
 
         first_word += 1
         second_word += 1
@@ -452,6 +463,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 three_passes += 1
     print("3 PoS Similarities: " + str(three_passes))
+    number_of_tests_passed += three_passes
 
     four_passes = 0
     #4 words
@@ -460,6 +472,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 four_passes += 1
     print("4 PoS Similarities: " + str(four_passes))
+    number_of_tests_passed += four_passes
 
     five_passes = 0
     #5 words
@@ -468,6 +481,29 @@ for sentence in sentenceTokens:
             if orders == each:
                 five_passes += 1
     print("5 PoS Similarities: " + str(five_passes))
+    number_of_tests_passed += five_passes
+
+    first_word = 0
+    second_word = 1
+    third_word = 2
+    fourth_word = 3
+    fifth_word = 4
+    #Fill non-punctuation order arrays for testing
+    while fifth_word != sent_length_no_punctuation:
+        three_words = [all_words_no_punctuation[first_word], all_words_no_punctuation[second_word], all_words_no_punctuation[third_word]]
+        sent_PoS_three_frequency_no_punctuation.append(str(three_words))
+
+        four_words = [all_words_no_punctuation[first_word], all_words_no_punctuation[second_word], all_words_no_punctuation[third_word], all_words_no_punctuation[fourth_word]]
+        sent_PoS_four_frequency_no_punctuation.append(str(four_words))
+
+        five_words = [all_words_no_punctuation[first_word], all_words_no_punctuation[second_word], all_words_no_punctuation[third_word], all_words_no_punctuation[fourth_word], all_words_no_punctuation[fifth_word]]
+        sent_PoS_five_frequency_no_punctuation.append(str(five_words))
+
+        first_word += 1
+        second_word += 1
+        third_word += 1
+        fourth_word += 1
+        fifth_word += 1
 
     #Non-Punctuation Tests
     #3 words
@@ -477,6 +513,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 three_passes_no_punctuation += 1
     print("3 PoS Similarities (No punctuation): " + str(three_passes_no_punctuation))
+    number_of_tests_passed += three_passes_no_punctuation
 
     four_passes_no_punctuation = 0
     #4 words
@@ -485,6 +522,7 @@ for sentence in sentenceTokens:
             if orders == each:
                 four_passes_no_punctuation += 1
     print("4 PoS Similarities (No punctuation): " + str(four_passes_no_punctuation))
+    number_of_tests_passed += four_passes_no_punctuation
 
     five_passes_no_punctuation = 0
     #5 words
@@ -493,7 +531,18 @@ for sentence in sentenceTokens:
             if orders == each:
                 five_passes_no_punctuation += 1
     print("5 PoS Similarities (No punctuation): " + str(five_passes_no_punctuation))
+    number_of_tests_passed += five_passes_no_punctuation
     
-    #Calculate chances of being periodic
-
-    #Output sentences
+    #Calculate chances of being periodic and output result
+    if number_of_tests_passed == 0:
+        output_file.write("Not Periodic (No passes): " + sentence)
+    if number_of_tests_passed == 1:
+        output_file.write("Unlikely Periodic (1 pass): " + sentence)
+    if number_of_tests_passed == 2:
+        output_file.write("Likely Periodic (2 passes): " + sentence)
+    if number_of_tests_passed == 3:
+        output_file.write("Very Likely Periodic (3 passes): " + sentence)
+    if number_of_tests_passed == 4:
+        output_file.write("Periodic (4 or more passes): " + sentence)
+    
+    output_file.write("\n")
