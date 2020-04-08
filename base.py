@@ -368,10 +368,16 @@ for each in PoS_five_frequencies_indexes:
 text = open(os.path.join(sys.path[0], 'input.txt'), 'r')
 user_file = text.read()
 sentenceTokens = nltk.sent_tokenize(user_file)
+number_of_sentences = 0
+number_of_not_periodic = 0
+number_of_unlikely = 0
+number_of_likely = 0
+number_of_very_likely = 0
+number_of_periodic = 0
 
 if os.path.exists(os.path.join('output.txt')): #Deleting and remaking output file
         os.remove(os.path.join(sys.path[0],'output.txt'))
-output_file = open(os.path.join(sys.path[0],'output.txt'), 'w') 
+output_file = open(os.path.join(sys.path[0],'output.txt'), 'w')
 
 sent_PoS_three_frequency = []
 sent_PoS_four_frequency = []
@@ -533,16 +539,41 @@ for sentence in sentenceTokens:
     print("5 PoS Similarities (No punctuation): " + str(five_passes_no_punctuation))
     number_of_tests_passed += five_passes_no_punctuation
     
+    
     #Calculate chances of being periodic and output result
     if number_of_tests_passed == 0:
         output_file.write("Not Periodic (No passes): " + sentence)
+        number_of_not_periodic += 1
+        number_of_sentences += 1
     if number_of_tests_passed == 1:
         output_file.write("Unlikely Periodic (1 pass): " + sentence)
+        number_of_unlikely += 1
+        number_of_sentences += 1
     if number_of_tests_passed == 2:
         output_file.write("Likely Periodic (2 passes): " + sentence)
+        number_of_likely += 1
+        number_of_sentences += 1
     if number_of_tests_passed == 3:
         output_file.write("Very Likely Periodic (3 passes): " + sentence)
-    if number_of_tests_passed == 4:
+        number_of_very_likely += 1
+        number_of_sentences += 1
+    if number_of_tests_passed >= 4:
         output_file.write("Periodic (4 or more passes): " + sentence)
-    
+        number_of_periodic += 1
+        number_of_sentences += 1
     output_file.write("\n")
+    
+output_file.write("Number of sentences analysed: " + str(number_of_sentences))
+output_file.write("\n")
+output_file.write("Not Periodic: " + str(number_of_not_periodic) + "(" + str(((number_of_not_periodic/number_of_sentences)*100)) + "%)")
+output_file.write("\n")
+output_file.write("Unlikely Periodic: " + str(number_of_unlikely) + "(" + str(((number_of_unlikely/number_of_sentences)*100)) + "%)")
+output_file.write("\n")
+output_file.write("Likely Periodic: " + str(number_of_likely) + "(" + str(((number_of_likely/number_of_sentences)*100)) + "%)")
+output_file.write("\n")
+output_file.write("Very Likely Periodic: " + str(number_of_very_likely) + "(" + str(((number_of_very_likely/number_of_sentences)*100)) + "%)")
+output_file.write("\n")
+output_file.write("Periodic: " + str(number_of_periodic) + "(" + str(((number_of_periodic/number_of_sentences)*100)) + "%)")
+output_file.write("\n")
+
+output_file.close()
