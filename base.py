@@ -469,7 +469,8 @@ for sentence in sentenceTokens:
             if orders == each:
                 three_passes += 1
     print("3 PoS Similarities: " + str(three_passes))
-    number_of_tests_passed += three_passes
+    if(three_passes > 1):
+        number_of_tests_passed += 1
 
     four_passes = 0
     #4 words
@@ -478,7 +479,8 @@ for sentence in sentenceTokens:
             if orders == each:
                 four_passes += 1
     print("4 PoS Similarities: " + str(four_passes))
-    number_of_tests_passed += four_passes
+    if(four_passes > 1):
+        number_of_tests_passed += 1
 
     five_passes = 0
     #5 words
@@ -487,7 +489,8 @@ for sentence in sentenceTokens:
             if orders == each:
                 five_passes += 1
     print("5 PoS Similarities: " + str(five_passes))
-    number_of_tests_passed += five_passes
+    if(five_passes > 1):
+        number_of_tests_passed += 1
 
     first_word = 0
     second_word = 1
@@ -519,7 +522,8 @@ for sentence in sentenceTokens:
             if orders == each:
                 three_passes_no_punctuation += 1
     print("3 PoS Similarities (No punctuation): " + str(three_passes_no_punctuation))
-    number_of_tests_passed += three_passes_no_punctuation
+    if(three_passes_no_punctuation > 1):
+        number_of_tests_passed += 1
 
     four_passes_no_punctuation = 0
     #4 words
@@ -528,7 +532,8 @@ for sentence in sentenceTokens:
             if orders == each:
                 four_passes_no_punctuation += 1
     print("4 PoS Similarities (No punctuation): " + str(four_passes_no_punctuation))
-    number_of_tests_passed += four_passes_no_punctuation
+    if(four_passes_no_punctuation > 1):
+        number_of_tests_passed += 1
 
     five_passes_no_punctuation = 0
     #5 words
@@ -537,7 +542,8 @@ for sentence in sentenceTokens:
             if orders == each:
                 five_passes_no_punctuation += 1
     print("5 PoS Similarities (No punctuation): " + str(five_passes_no_punctuation))
-    number_of_tests_passed += five_passes_no_punctuation
+    if(five_passes_no_punctuation > 1):
+        number_of_tests_passed += 1
     
     
     #Calculate chances of being periodic and output result
