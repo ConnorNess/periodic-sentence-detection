@@ -465,33 +465,42 @@ for sentence in sentenceTokens:
     #Punctuation Tests
     #3 words
     three_passes = 0
-    for each in most_common_PoS_three_frequencies_lengths:
-        for orders in sent_PoS_three_frequency:
-            if orders == each:
-                three_passes += 1
-    print("3 PoS Similarities: " + str(three_passes))
-    if(three_passes >= 1):
-        number_of_tests_passed += 1
+    try:
+        for each in most_common_PoS_three_frequencies_lengths:
+            for orders in sent_PoS_three_frequency:
+                if orders == each:
+                    three_passes += 1
+        print("3 PoS Similarities: " + str(three_passes))
+        if(three_passes >= 1):
+            number_of_tests_passed += 1
+    except:
+        print("less than 3 words")
 
     four_passes = 0
     #4 words
-    for each in most_common_PoS_four_frequencies_lengths:
-        for orders in sent_PoS_four_frequency:
-            if orders == each:
-                four_passes += 1
-    print("4 PoS Similarities: " + str(four_passes))
-    if(four_passes >= 1):
-        number_of_tests_passed += 1
+    try:
+        for each in most_common_PoS_four_frequencies_lengths:
+            for orders in sent_PoS_four_frequency:
+                if orders == each:
+                    four_passes += 1
+        print("4 PoS Similarities: " + str(four_passes))
+        if(four_passes >= 1):
+            number_of_tests_passed += 1
+    except:
+        print("less than 4 words")
 
     five_passes = 0
     #5 words
-    for each in most_common_PoS_five_frequencies_lengths:
-        for orders in sent_PoS_five_frequency:
-            if orders == each:
-                five_passes += 1
-    print("5 PoS Similarities: " + str(five_passes))
-    if(five_passes >= 1):
-        number_of_tests_passed += 1
+    try:
+        for each in most_common_PoS_five_frequencies_lengths:
+            for orders in sent_PoS_five_frequency:
+                if orders == each:
+                    five_passes += 1
+        print("5 PoS Similarities: " + str(five_passes))
+        if(five_passes >= 1):
+            number_of_tests_passed += 1
+    except:
+        print("less than 5 words")
 
     first_word = 0
     second_word = 1
@@ -517,35 +526,43 @@ for sentence in sentenceTokens:
 
     #Non-Punctuation Tests
     #3 words
-    three_passes_no_punctuation = 0
-    for each in most_common_PoS_three_frequencies_no_punctuation_lengths:
-        for orders in sent_PoS_three_frequency:
-            if orders == each:
-                three_passes_no_punctuation += 1
-    print("3 PoS Similarities (No punctuation): " + str(three_passes_no_punctuation))
-    if(three_passes_no_punctuation >= 1):
-        number_of_tests_passed += 1
+    try:
+        three_passes_no_punctuation = 0
+        for each in most_common_PoS_three_frequencies_no_punctuation_lengths:
+            for orders in sent_PoS_three_frequency:
+                if orders == each:
+                    three_passes_no_punctuation += 1
+        print("3 PoS Similarities (No punctuation): " + str(three_passes_no_punctuation))
+        if(three_passes_no_punctuation >= 1):
+            number_of_tests_passed += 1
+    except:
+        print("less than 3 words")
 
     four_passes_no_punctuation = 0
     #4 words
-    for each in most_common_PoS_four_frequencies_no_punctuation_lengths:
-        for orders in sent_PoS_four_frequency:
-            if orders == each:
-                four_passes_no_punctuation += 1
-    print("4 PoS Similarities (No punctuation): " + str(four_passes_no_punctuation))
-    if(four_passes_no_punctuation >= 1):
-        number_of_tests_passed += 1
+    try:
+        for each in most_common_PoS_four_frequencies_no_punctuation_lengths:
+            for orders in sent_PoS_four_frequency:
+                if orders == each:
+                    four_passes_no_punctuation += 1
+        print("4 PoS Similarities (No punctuation): " + str(four_passes_no_punctuation))
+        if(four_passes_no_punctuation >= 1):
+            number_of_tests_passed += 1
+    except:
+        print("less than 4 words")
 
     five_passes_no_punctuation = 0
     #5 words
-    for each in most_common_PoS_five_frequencies_no_punctuation_lengths:
-        for orders in sent_PoS_five_frequency:
-            if orders == each:
-                five_passes_no_punctuation += 1
-    print("5 PoS Similarities (No punctuation): " + str(five_passes_no_punctuation))
-    if(five_passes_no_punctuation >= 1):
-        number_of_tests_passed += 1
-    
+    try:
+        for each in most_common_PoS_five_frequencies_no_punctuation_lengths:
+            for orders in sent_PoS_five_frequency:
+                if orders == each:
+                    five_passes_no_punctuation += 1
+        print("5 PoS Similarities (No punctuation): " + str(five_passes_no_punctuation))
+        if(five_passes_no_punctuation >= 1):
+            number_of_tests_passed += 1
+    except:
+        print("less than 5 words")
     
     #Calculate chances of being periodic and output result
     if number_of_tests_passed == 0:
